@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #eee;
+  background: #777;
+}
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: black;
+  border: 1px solid #ddd;
+}
+
+.sidebar {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+  .resize {
+    width: 60px;
+    height: auto;
+  }
+.panel-heading {
+  background-color: black;
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}
+
+
+.jumborton {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+
+  body {
+    background-color: #333;
+  }
+
+  /* The wrapper's width will be 600px */
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  #main-content, #sidebar {
+    width: 100%;
+  }
+  #sidebar {
+    margin-top: 40px;
+  }
+}
